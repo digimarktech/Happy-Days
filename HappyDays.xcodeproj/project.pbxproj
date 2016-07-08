@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDF32E431D2FFA3B00FBE6F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF32E421D2FFA3B00FBE6F7 /* AppDelegate.swift */; };
+		BDF32E451D2FFA3B00FBE6F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF32E441D2FFA3B00FBE6F7 /* ViewController.swift */; };
+		BDF32E481D2FFA3B00FBE6F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDF32E461D2FFA3B00FBE6F7 /* Main.storyboard */; };
+		BDF32E4A1D2FFA3B00FBE6F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDF32E491D2FFA3B00FBE6F7 /* Assets.xcassets */; };
+		BDF32E4D1D2FFA3B00FBE6F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDF32E4B1D2FFA3B00FBE6F7 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BDF32E3F1D2FFA3B00FBE6F7 /* HappyDays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyDays.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF32E421D2FFA3B00FBE6F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDF32E441D2FFA3B00FBE6F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDF32E471D2FFA3B00FBE6F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDF32E491D2FFA3B00FBE6F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDF32E4C1D2FFA3B00FBE6F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDF32E4E1D2FFA3B00FBE6F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDF32E3C1D2FFA3B00FBE6F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDF32E361D2FFA3B00FBE6F7 = {
+			isa = PBXGroup;
+			children = (
+				BDF32E411D2FFA3B00FBE6F7 /* HappyDays */,
+				BDF32E401D2FFA3B00FBE6F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDF32E401D2FFA3B00FBE6F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDF32E3F1D2FFA3B00FBE6F7 /* HappyDays.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDF32E411D2FFA3B00FBE6F7 /* HappyDays */ = {
+			isa = PBXGroup;
+			children = (
+				BDF32E421D2FFA3B00FBE6F7 /* AppDelegate.swift */,
+				BDF32E441D2FFA3B00FBE6F7 /* ViewController.swift */,
+				BDF32E461D2FFA3B00FBE6F7 /* Main.storyboard */,
+				BDF32E491D2FFA3B00FBE6F7 /* Assets.xcassets */,
+				BDF32E4B1D2FFA3B00FBE6F7 /* LaunchScreen.storyboard */,
+				BDF32E4E1D2FFA3B00FBE6F7 /* Info.plist */,
+			);
+			path = HappyDays;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDF32E3E1D2FFA3B00FBE6F7 /* HappyDays */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDF32E511D2FFA3B00FBE6F7 /* Build configuration list for PBXNativeTarget "HappyDays" */;
+			buildPhases = (
+				BDF32E3B1D2FFA3B00FBE6F7 /* Sources */,
+				BDF32E3C1D2FFA3B00FBE6F7 /* Frameworks */,
+				BDF32E3D1D2FFA3B00FBE6F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HappyDays;
+			productName = HappyDays;
+			productReference = BDF32E3F1D2FFA3B00FBE6F7 /* HappyDays.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDF32E371D2FFA3B00FBE6F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Digimark Technical Solutions";
+				TargetAttributes = {
+					BDF32E3E1D2FFA3B00FBE6F7 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4T87K25SZU;
+						DevelopmentTeamName = "Marc Aupont";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BDF32E3A1D2FFA3B00FBE6F7 /* Build configuration list for PBXProject "HappyDays" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDF32E361D2FFA3B00FBE6F7;
+			productRefGroup = BDF32E401D2FFA3B00FBE6F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDF32E3E1D2FFA3B00FBE6F7 /* HappyDays */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDF32E3D1D2FFA3B00FBE6F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF32E4D1D2FFA3B00FBE6F7 /* LaunchScreen.storyboard in Resources */,
+				BDF32E4A1D2FFA3B00FBE6F7 /* Assets.xcassets in Resources */,
+				BDF32E481D2FFA3B00FBE6F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDF32E3B1D2FFA3B00FBE6F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF32E451D2FFA3B00FBE6F7 /* ViewController.swift in Sources */,
+				BDF32E431D2FFA3B00FBE6F7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BDF32E461D2FFA3B00FBE6F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDF32E471D2FFA3B00FBE6F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDF32E4B1D2FFA3B00FBE6F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDF32E4C1D2FFA3B00FBE6F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDF32E4F1D2FFA3B00FBE6F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDF32E501D2FFA3B00FBE6F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDF32E521D2FFA3B00FBE6F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HappyDays/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digimarktech.HappyDays;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BDF32E531D2FFA3B00FBE6F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HappyDays/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.digimarktech.HappyDays;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDF32E3A1D2FFA3B00FBE6F7 /* Build configuration list for PBXProject "HappyDays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF32E4F1D2FFA3B00FBE6F7 /* Debug */,
+				BDF32E501D2FFA3B00FBE6F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDF32E511D2FFA3B00FBE6F7 /* Build configuration list for PBXNativeTarget "HappyDays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF32E521D2FFA3B00FBE6F7 /* Debug */,
+				BDF32E531D2FFA3B00FBE6F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDF32E371D2FFA3B00FBE6F7 /* Project object */;
+}
