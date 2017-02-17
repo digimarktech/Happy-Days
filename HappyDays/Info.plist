@@ -24,6 +24,12 @@
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>This permission is used to let you import photos</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>This permission is so you can record your memory via voice</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>This is to transribe what you have recorded</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
